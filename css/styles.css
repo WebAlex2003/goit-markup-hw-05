@@ -798,6 +798,9 @@ footer {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
 
+    width: 100%;
+    height: 40px;
+
     background-color: transparent;
 
     padding-left: 38px;
@@ -883,6 +886,7 @@ footer {
 .checkbox-input:checked + .checkbox-text span {
      border: none;
      fill: #F4F4FD;
+     background-color: #404bbf;
 }
 
 .second-check-text {
@@ -897,6 +901,7 @@ footer {
     letter-spacing: 0.04em;
     cursor: pointer;
 
+    background-color: #4D5AE5;
     color: #ffffff;
 
     display: block;
